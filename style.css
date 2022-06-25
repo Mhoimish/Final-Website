@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+.wrapper{
+    width:1170px;
+    margin:auto;
+}
+header{
+    background: url("2.jpg");
+    height: 100vh;
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-position: center center;
+    position:relative;
+}
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.nav-area li{
+    display: inline-block;
+}
+.nav-area li a{
+    color: #fff;
+    text-decoration:none;
+    padding: 5px 20px;
+    font-family:'Tenor Sans', sans-serif;
+    font-size: 16px
+}
+.nav-area li a:hover{
+    background: #fff;
+    color:#C4B0A5;
+    
+}
+.welcome-text{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: center;
+}
+.welcome-text h1{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+.welcome-text a{
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff;
+}
+.welcome-text a:hover{
+    background: #fff;
+    color: #C4B0A5;
+}
+.about{
+	width: 100%;
+	padding-top: 35px;
+	padding-bottom: 50px;
+	background-color: #B38F7F;
+}
+.about img{
+	height: 720px;
+	width: auto;
+}
+.about-text{
+	width: 550px;
+	color: #fff;
+}
+.about-text h2{
+	color: #fff;
+	font-family: 'Tenor Sans', sans-serif;
+	font-size: 60px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.about-text p{
+	color: #fff;
+	line-height: 45px;
+	font-family: 'DM Sans', sans-serif;
+	font-size: 20px;
+	margin-bottom: 45px;
+}
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;	
+}
+button{
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    background: #fff;
+    color: #C4B0A5;
+}
+.portfolio{
+    background: #B38F7F;
+    padding-bottom: 30px;
+}
+.portfolio .title h2{
+    font-size: 60px;
+    font-family: 'Tenor Sans', sans-serif;
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.portfolio .activity a{
+    text-decoration: none;
+    
+}
+.portfolio .activity p{
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #fff;
+    padding: 20px 50px;
+    width: 500px;
+    align-items: center;
+    margin: auto;
+    margin-top: 15px;
+}
+.portfolio .activity p:hover{
+    background-color: #fff;
+    color: #B38F7F;
+}
